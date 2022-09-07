@@ -9,7 +9,7 @@ document.addEventListener("keydown", function(event) {
         setTimeout(function() { dino.classList.remove("jump") }, 500)
     }
 })
-speed = 3
+speed = 5
 setInterval(function() {
         let dinoTop = parseInt(getComputedStyle(dino).top)
         let cactusLeft = parseInt(getComputedStyle(cactus).left)
